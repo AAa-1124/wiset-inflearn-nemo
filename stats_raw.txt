@@ -1,0 +1,65 @@
+=== Numerical Statistics ===
+          row_id  articleType         number  businessLargeCode  businessMiddleCode   priceType       deposit   monthlyRent  isPremiumClosed        premium          sale  maintenanceFee       floor  groundFloor         size  firstDeposit  firstMonthlyRent   firstPremium    viewCount  favoriteCount  isMoveInDate  state     areaPrice
+count  673.00000        673.0     673.000000         673.000000          673.000000  673.000000  6.730000e+02    673.000000       673.000000     673.000000  6.730000e+02      673.000000  673.000000   673.000000   673.000000  6.730000e+02        673.000000     673.000000   673.000000     673.000000    673.000000  673.0    673.000000
+mean   337.00000          1.0  862114.557207          15.014859         1507.702823    1.008915  6.895520e+04   5346.627043         0.010401   46405.824666  1.173848e+04      606.448737    2.077266     7.661218   127.570323  6.809432e+04       5278.246657   48353.655275   212.589896       1.421991      0.777117    1.0    439.734027
+std    194.42265          0.0  115391.495123           2.368522          238.762710    0.133332  9.900818e+04   7658.167330         0.101530   91175.465166  1.903836e+05      916.046770    2.587166     5.053694   115.144184  9.866252e+04       7680.100168   93776.746091   272.444028       2.653096      0.416490    0.0   4373.754509
+min      1.00000          1.0  386896.000000          11.000000         1101.000000    1.000000  0.000000e+00      0.000000         0.000000       0.000000  0.000000e+00        0.000000   -4.000000     0.000000     3.310000  0.000000e+00          0.000000       0.000000     0.000000       0.000000      0.000000    1.0     18.000000
+25%    169.00000          1.0  842541.000000          12.000000         1209.000000    1.000000  2.500000e+04   2100.000000         0.000000       0.000000  0.000000e+00      100.000000    1.000000     5.000000    54.480000  2.500000e+04       2090.000000       0.000000    13.000000       0.000000      1.000000    1.0     90.000000
+50%    337.00000          1.0  916500.000000          16.000000         1609.000000    1.000000  4.000000e+04   3400.000000         0.000000       0.000000  0.000000e+00      300.000000    1.000000     6.000000   102.150000  4.000000e+04       3300.000000       0.000000    40.000000       0.000000      1.000000    1.0    127.000000
+75%    505.00000          1.0  927825.000000          17.000000         1709.000000    1.000000  7.000000e+04   5500.000000         0.000000   50000.000000  0.000000e+00      710.000000    3.000000    10.000000   152.100000  7.000000e+04       5400.000000   60000.000000   471.000000       2.000000      1.000000    1.0    192.000000
+max    673.00000          1.0  938774.000000          17.000000         1709.000000    3.000000  1.080000e+06  90000.000000         1.000000  900000.000000  4.000000e+06     9600.000000   12.000000    30.000000  1225.440000  1.080000e+06      90000.000000  900000.000000  1408.000000      29.000000      1.000000    1.0  83084.000000
+
+=== Categorical Statistics ===
+       isPriority                                    id buildingManagementSerialNumber agentId                                                                   previewPhotoUrl                                                                                                                                                                                                                                                                                                                                                                                                                        smallPhotoUrls                                                                                                                                                                                                                                                                                                                                                                                                                       originPhotoUrls businessLargeCodeName businessMiddleCodeName priceTypeName          title           confirmedDateUtc nearSubwayStation isInYourFavorited                 moveInDate        completionConfirmedDateUtc                    createdDateUtc                     editedDateUtc           created_at
+count           0                                   673                            673       0                                                                               673                                                                                                                                                                                                                                                                                                                                                                                                                                   673                                                                                                                                                                                                                                                                                                                                                                                                                                   673                   673                    673           673            673                        258               673                 0                         16                                 2                               673                               673                  673
+unique          0                                   673                            381       0                                                                               672                                                                                                                                                                                                                                                                                                                                                                                                                                   672                                                                                                                                                                                                                                                                                                                                                                                                                                   672                     7                     45             2            515                        253                61                 0                         10                                 2                               673                               673                   34
+top           NaN  758d5af1-2829-450b-acff-7fdc04bbbf7a      1168010100108100011026664     NaN  https://img.nemoapp.kr/article-photos/0f1d6e15-3eb9-424b-8f0a-f032a42b2a66/s.jpg  ["https://img.nemoapp.kr/article-photos/0f1d6e15-3eb9-424b-8f0a-f032a42b2a66/s.jpg", "https://img.nemoapp.kr/article-photos/c3b3035b-6ad5-4543-b530-5b2964d2b280/s.jpg", "https://img.nemoapp.kr/article-photos/3026a4d1-f5a3-4146-88f9-521590405ca2/s.jpg", "https://img.nemoapp.kr/article-photos/08939334-f2cf-4f50-95fd-ce9cfccd11c8/s.jpg", "https://img.nemoapp.kr/article-photos/58d5d7dd-1268-4fe6-b52b-35db7226527e/s.jpg"]  ["https://img.nemoapp.kr/article-photos/0f1d6e15-3eb9-424b-8f0a-f032a42b2a66/l.jpg", "https://img.nemoapp.kr/article-photos/c3b3035b-6ad5-4543-b530-5b2964d2b280/l.jpg", "https://img.nemoapp.kr/article-photos/3026a4d1-f5a3-4146-88f9-521590405ca2/l.jpg", "https://img.nemoapp.kr/article-photos/08939334-f2cf-4f50-95fd-ce9cfccd11c8/l.jpg", "https://img.nemoapp.kr/article-photos/58d5d7dd-1268-4fe6-b52b-35db7226527e/l.jpg"]                  기타업종                 기타창업모음            임대  ❤️ 아정당부동산중개법인  2020-09-09T00:00:00+00:00        역삼역, 도보 5분               NaN  2024-09-01T00:00:00+00:00  2026-01-17T09:24:27.880088+00:00  2026-04-15T06:32:22.769312+00:00  2026-04-27T00:18:27.914154+00:00  2026-04-27 02:44:03
+freq          NaN                                     1                             13     NaN                                                                                 2                                                                                                                                                                                                                                                                                                                                                                                                                                     2                                                                                                                                                                                                                                                                                                                                                                                                                                     2                   325                    266           670            113                          3                52               NaN                          5                                 1                                 1                                 1                   20
+
+=== Skewness & Kurtosis ===
+row_id                 0.000000
+articleType            0.000000
+number                -2.493531
+businessLargeCode     -0.651287
+businessMiddleCode    -0.648690
+priceType             14.910680
+deposit                5.905511
+monthlyRent            6.960735
+isPremiumClosed        9.673172
+premium                3.560557
+sale                  17.933418
+maintenanceFee         4.205125
+floor                  1.082278
+groundFloor            1.508616
+size                   3.194397
+firstDeposit           5.973387
+firstMonthlyRent       7.012648
+firstPremium           3.433953
+viewCount              1.146292
+favoriteCount          3.923446
+isMoveInDate          -1.334695
+state                  0.000000
+areaPrice             17.345140
+row_id                 -1.200000
+articleType             0.000000
+number                  6.160735
+businessLargeCode      -1.310540
+businessMiddleCode     -1.312635
+priceType             220.985093
+deposit                50.095453
+monthlyRent            67.541212
+isPremiumClosed        91.843194
+premium                18.211218
+sale                  340.573921
+maintenanceFee         26.487006
+floor                   1.568838
+groundFloor             2.289906
+size                   17.753362
+firstDeposit           51.008961
+firstMonthlyRent       67.671383
+firstPremium           16.726303
+viewCount               0.356308
+favoriteCount          23.730780
+isMoveInDate           -0.219250
+state                   0.000000
+areaPrice             308.190430

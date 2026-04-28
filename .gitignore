@@ -1,0 +1,42 @@
+# 1. 가상환경 및 환경변수
+.env
+.venv/
+venv/
+env/
+
+# 2. Python 캐시 및 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 3. Jupyter Notebook 관련
+.ipynb_checkpoints/
+
+# 4. IDE 및 에디터 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 5. 데이터 파일 (필요에 따라 주석 해제하여 사용)
+# *.csv
+# *.xlsx
+# *.json
+# *.parquet
+# data/raw/
+
+# 6. 로그 파일
+*.log
+
+# 7. AI 에이전트 및 임시 작업 폴더
+.agents/
+scratch/
+
+# 8. 이미지 및 시각화 결과물 폴더
+*.png
+*.jpg
+*.jpeg
+*.svg
+images/

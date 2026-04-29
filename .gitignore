@@ -35,8 +35,9 @@ __pycache__/
 scratch/
 
 # 8. 이미지 및 시각화 결과물 폴더
-*.png
-*.jpg
-*.jpeg
-*.svg
-images/
+# (슬라이드 배포를 위해 주석 처리)
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+# images/

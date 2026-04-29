@@ -11,106 +11,95 @@ style: |
   section {
     font-family: 'Courier New', 'Space Mono', monospace;
     background-color: #F5F500;
-    padding: 40px;
+    padding: 30px; /* 여백 축소 */
     color: #000000;
     font-weight: 700;
   }
   
   h1 {
     font-family: 'Impact', sans-serif;
-    font-size: 85px;
+    font-size: 70px; /* 크기 축소 */
     line-height: 0.9;
     color: #000000;
     text-transform: uppercase;
     background: #FF2D55;
     display: block;
     width: fit-content;
-    padding: 20px;
-    border: 8px solid #000000;
-    box-shadow: 15px 15px 0px #000000;
-    transform: rotate(-2deg);
-    margin-bottom: 60px;
+    padding: 15px;
+    border: 6px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    margin-bottom: 30px;
   }
   
   h2 {
     font-family: 'Impact', sans-serif;
-    font-size: 55px;
+    font-size: 45px; /* 크기 축소 */
     background: #FFFFFF;
     color: #000000;
     display: inline-block;
-    padding: 10px 20px;
-    border: 6px solid #000000;
-    box-shadow: 10px 10px 0px #000000;
-    margin-bottom: 40px;
+    padding: 8px 16px;
+    border: 5px solid #000000;
+    box-shadow: 8px 8px 0px #000000;
+    margin-bottom: 20px;
   }
   
   ul {
     background: #FFFFFF;
-    border: 6px solid #000000;
-    box-shadow: 12px 12px 0px #000000;
-    padding: 40px 60px;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    padding: 20px 40px; /* 패딩 축소 */
     list-style: square;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   li {
     font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 24px; /* 크기 축소 */
+    margin-bottom: 10px;
     color: #000000;
   }
   
   strong {
     background: #00FF00;
-    padding: 0 10px;
-    border: 3px solid #000000;
+    padding: 0 5px;
+    border: 2px solid #000000;
   }
   
   img {
-    border: 8px solid #000000;
-    box-shadow: 15px 15px 0px #000000;
+    border: 6px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
     background: #FFFFFF;
-    max-height: 400px;
-    margin-top: 20px;
-    transform: rotate(1deg);
+    max-height: 320px; /* 이미지 높이 대폭 축소 */
+    margin-top: 10px;
+    display: block;
   }
   
   table {
     background: #FFFFFF;
-    border: 6px solid #000000;
-    box-shadow: 12px 12px 0px #000000;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
     width: 100%;
-    transform: rotate(-1deg);
   }
   
   th {
     background: #00F5FF;
-    border: 4px solid #000000;
-    padding: 20px;
-    font-size: 30px;
+    border: 3px solid #000000;
+    padding: 10px;
+    font-size: 24px;
   }
   
   td {
-    padding: 20px;
-    border: 3px solid #000000;
-    font-size: 26px;
+    padding: 10px;
+    border: 2px solid #000000;
+    font-size: 22px;
     text-align: center;
   }
   
-  /* 푸터 스타일 완전 삭제 */
-  footer {
-    display: none;
-  }
+  footer { display: none; }
 
-  section:nth-child(even) {
-    background-color: #FF2D55;
-  }
-  section:nth-child(even) h2 {
-    background-color: #00F5FF;
-  }
-  section:nth-child(even) ul {
-    background-color: #F5F500;
-  }
+  section:nth-child(even) { background-color: #FF2D55; }
+  section:nth-child(even) h2 { background-color: #00F5FF; }
+  section:nth-child(even) ul { background-color: #F5F500; }
 
   section.title-page {
     background-color: #000000;
@@ -121,13 +110,13 @@ style: |
   }
   section.title-page h1 {
     background-color: #F5F500;
-    font-size: 120px;
-    transform: rotate(3deg);
+    font-size: 100px;
+    margin-bottom: 20px;
   }
   section.title-page h3 {
     background-color: #00F5FF;
     color: #000000;
-    font-size: 40px;
+    font-size: 36px;
     padding: 10px 30px;
     border: 6px solid #000000;
     box-shadow: 10px 10px 0px #FFFFFF;

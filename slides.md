@@ -4,7 +4,7 @@ theme: default
 paginate: true
 backgroundColor: #F5F500
 header: ' '
-footer: 'NEMOAPP x NEO-BRUTALISM'
+footer: ' '
 style: |
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
   
@@ -16,14 +16,13 @@ style: |
     font-weight: 700;
   }
   
-  /* 타일 제목 스타일 */
   h1 {
     font-family: 'Impact', sans-serif;
     font-size: 85px;
     line-height: 0.9;
     color: #000000;
     text-transform: uppercase;
-    background: #FF2D55; /* Hot Pink */
+    background: #FF2D55;
     display: block;
     width: fit-content;
     padding: 20px;
@@ -45,7 +44,6 @@ style: |
     margin-bottom: 40px;
   }
   
-  /* 리스트 박스 */
   ul {
     background: #FFFFFF;
     border: 6px solid #000000;
@@ -56,27 +54,27 @@ style: |
   }
   
   li {
+    font-weight: 700;
     font-size: 30px;
     margin-bottom: 20px;
     color: #000000;
   }
   
   strong {
-    background: #00FF00; /* Lime Green */
+    background: #00FF00;
     padding: 0 10px;
     border: 3px solid #000000;
   }
   
-  /* 이미지 스타일링 */
   img {
     border: 8px solid #000000;
     box-shadow: 15px 15px 0px #000000;
     background: #FFFFFF;
     max-height: 400px;
+    margin-top: 20px;
     transform: rotate(1deg);
   }
   
-  /* 테이블 */
   table {
     background: #FFFFFF;
     border: 6px solid #000000;
@@ -99,15 +97,11 @@ style: |
     text-align: center;
   }
   
+  /* 푸터 스타일 완전 삭제 */
   footer {
-    background: #000000;
-    color: #F5F500;
-    font-size: 18px;
-    padding: 5px 20px;
-    border: none;
+    display: none;
   }
 
-  /* 홀수/짝수 슬라이드 배경 반전 */
   section:nth-child(even) {
     background-color: #FF2D55;
   }
@@ -118,7 +112,6 @@ style: |
     background-color: #F5F500;
   }
 
-  /* 제목 슬라이드 전용 */
   section.title-page {
     background-color: #000000;
     display: flex;
